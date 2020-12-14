@@ -1,0 +1,107 @@
+#english-create-box {
+  height: 10vh;
+  font-size: 12pt;
+  resize: none;
+  width: 40vh;
+  display: block;
+}
+
+#language-row {
+  margin-top: 30px;
+}
+
+#translated-table {
+  margin: 30 auto;
+}
+#english-header {
+  padding-right: 50px;
+}
+
+#english-td {
+  padding-right: 50px;
+}
+
+#english-translate-box {
+  height: 10vh;
+  font-size: 12pt;
+  resize: none;
+  width: 40vh;
+}
+
+#submit-button {
+  display: block;
+}
+
+#alt-language {
+  height: 200px;
+  font-size: 14pt;
+  resize: none;
+  width: 400px;
+}
+
+#phrases-table {
+  border-collapse: collapse;
+  width: 40vh;
+}
+
+#phrases-table tr {
+  background-color: #eee;
+  border-top: 1px solid #fff;
+}
+#phrases-table tr:hover {
+  background-color: #ccc;
+}
+#phrases-table th {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+#phrases-table th,
+#phrases-table td {
+  padding: 3px 5px;
+}
+#phrases-table td:hover {
+  cursor: pointer;
+}
+
+#scrollable-table {
+  height: 80vh;
+  width: 40vh;
+  background-color: #bebbba;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+#left-side {
+  flex-grow: 1;
+}
+
+#right-side {
+  flex-grow: 3;
+  padding: 30px;
+  padding-top: 100px;
+}
+
+.language-class {
+  width: 100%;
+}
+
+#left-side-main {
+  flex-grow: 1;
+}
+
+#right-side-main {
+  flex-grow: 1;
+}
+
+#main-page {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  width: 100vw;
+  text-align: center;
+}
